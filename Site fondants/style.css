@@ -1,0 +1,127 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #f7e1d7, #f3c5a5);
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* TITRE PRINCIPAL */
+h1 {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 45px;
+  color: #5a3e36;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* TEXTES */
+p {
+  font-size: 20px;
+  color: #5a3e36;
+}
+
+/* MAIN */
+main {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* TITRES */
+h2 {
+  color: #5a3e36;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #5a3e36;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* SECTION A PROPOS */
+.Texte {
+  color: #5a3e36;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+  line-height: 1.5;
+}
+
+.Texte:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION PRODUITS */
+.produits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.carte {
+  width: 250px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.carte:hover {
+  transform: scale(1.05);
+}
+
+.carte img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+/* CONTACT */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0;
+}
+
+span {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #5a3e36;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+span:hover {
+  background: #f3c5a5;
+  transform: scale(1.1);
+}
+
+/* LIENS */
+a {
+  text-decoration: none;
+}
