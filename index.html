@@ -4,67 +4,176 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Les fondants de [Nom]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header>
-  <h1>Les fondants de [Nom]</h1>
-  <p>Fondants parfumés artisanaux</p>
-</header>
+  <header class="topbar">
+    <p>Fondants parfumés artisanaux</p>
+  </header>
 
-<main>
-
-  <!-- A PROPOS -->
-  <section>
-    <h2>À propos</h2>
-    <p class="Texte">
-      Des fondants parfumés faits à la main avec passion pour parfumer votre intérieur.
-    </p>
-  </section>
-
-  <!-- ODEURS -->
-  <section>
-    <h2>Nos odeurs</h2>
-
-    <div class="produits">
-
-      <div class="carte">
-        <img src="images/odeur1.jpg" alt="Fondant vanille">
-        <h3>Vanille</h3>
-        <p>Parfum doux et gourmand</p>
-      </div>
-
-      <div class="carte">
-        <img src="images/odeur2.jpg" alt="Fondant fraise">
-        <h3>Fraise</h3>
-        <p>Une odeur sucrée et fruitée</p>
-      </div>
-
-      <div class="carte">
-        <img src="images/odeur3.jpg" alt="Fondant coco">
-        <h3>Noix de coco</h3>
-        <p>Parfum exotique et relaxant</p>
-      </div>
-
+  <nav class="navbar">
+    <div class="logo">
+      <h1>Le Pays de Mathilde</h1>
+      <p>Faits avec amour</p>
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section>
-    <h2>Contact</h2>
-
-    <ul>
-      <li><span>Email</span></li>
-      <li><span>Instagram</span></li>
-      <li><span>Facebook</span></li>
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#odeurs">Nos odeurs</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
+  </nav>
 
-  </section>
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-texte">
+        <p class="mini-titre">Fondants parfumés</p>
+        <h2>Des fondants parfumés<br>faits avec amour</h2>
+        <p class="description">
+          Des senteurs douces, gourmandes et chaleureuses pour parfumer votre intérieur
+          et créer une ambiance cocooning à la maison.
+        </p>
 
-</main>
+        <div class="hero-boutons">
+          <a href="#odeurs" class="btn btn-principal">Découvrir les odeurs</a>
+          <a href="#contact" class="btn btn-secondaire">Nous contacter</a>
+        </div>
+
+        <div class="hero-points">
+          <div class="point">
+            <span>♡</span>
+            <p>Fait main</p>
+          </div>
+          <div class="point">
+            <span>✿</span>
+            <p>Parfums variés</p>
+          </div>
+          <div class="point">
+            <span>✦</span>
+            <p>Créations artisanales</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/hero.jpg" alt="Fondants parfumés artisanaux">
+      </div>
+    </section>
+
+    <section class="section section-claire" id="odeurs">
+      <div class="section-titre">
+        <p class="mini-titre">Nos fondants</p>
+        <h2>Des senteurs pour chaque envie</h2>
+      </div>
+
+      <div class="produits">
+        <article class="carte-produit">
+          <img src="images/odeur1.jpg" alt="Fondant parfumé Vanille">
+          <div class="carte-contenu">
+            <h3>Vanille</h3>
+            <p>Douce et gourmande</p>
+            <strong>6,50 €</strong>
+          </div>
+        </article>
+
+        <article class="carte-produit">
+          <img src="images/odeur2.jpg" alt="Fondant parfumé Fruits rouges">
+          <div class="carte-contenu">
+            <h3>Fruits rouges</h3>
+            <p>Fruitée et sucrée</p>
+            <strong>6,50 €</strong>
+          </div>
+        </article>
+
+        <article class="carte-produit">
+          <img src="images/odeur3.jpg" alt="Fondant parfumé Monoï">
+          <div class="carte-contenu">
+            <h3>Monoï</h3>
+            <p>Exotique et solaire</p>
+            <strong>6,50 €</strong>
+          </div>
+        </article>
+
+        <article class="carte-produit">
+          <img src="images/odeur4.jpg" alt="Fondant parfumé Fleur de coton">
+          <div class="carte-contenu">
+            <h3>Fleur de coton</h3>
+            <p>Propre et réconfortante</p>
+            <strong>6,50 €</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="bande-infos">
+      <div class="info-box">
+        <span>✿</span>
+        <p>Créations artisanales</p>
+      </div>
+
+      <div class="info-box">
+        <span>♡</span>
+        <p>Faites avec soin</p>
+      </div>
+
+      <div class="info-box">
+        <span>✦</span>
+        <p>Parfums variés</p>
+      </div>
+
+      <div class="info-box">
+        <span>☁</span>
+        <p>Ambiance cocooning</p>
+      </div>
+    </section>
+
+    <section class="section apropos" id="apropos">
+      <div class="apropos-texte">
+        <p class="mini-titre">À propos</p>
+        <h2>Un univers doux et parfumé</h2>
+        <p>
+          Chaque fondant est préparé avec passion pour offrir une senteur agréable
+          et chaleureuse à votre intérieur. Le but est de proposer des créations
+          artisanales simples, jolies et parfumées, à offrir ou à se faire plaisir.
+        </p>
+        <p>
+          Cette section pourra être modifiée plus tard avec le vrai texte de ta femme,
+          son histoire, ses parfums préférés ou sa façon de travailler.
+        </p>
+      </div>
+
+      <div class="apropos-image">
+        <img src="images/apropos.jpg" alt="Brûleur et fondants parfumés">
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-titre">
+        <p class="mini-titre">Contact</p>
+        <h2>Nous contacter</h2>
+      </div>
+
+      <p class="contact-texte">
+        Pour toute question, commande ou renseignement, vous pouvez nous contacter
+        via les liens ci-dessous.
+      </p>
+
+      <ul class="contact-liens">
+        <li><a href="mailto:contact@mail.fr">Email</a></li>
+        <li><a href="https://instagram.com/toncompte" target="_blank">Instagram</a></li>
+        <li><a href="https://facebook.com/toncompte" target="_blank">Facebook</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Les fondants de [Nom] - Tous droits réservés</p>
+  </footer>
 
 </body>
 </html>
